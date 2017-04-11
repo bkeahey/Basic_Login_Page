@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background"
+    tools:context="edu.montclair.mobilecomputing.m_alrajab.assignment_1.RegistrationPage">
+
+    <FrameLayout
+        android:id="@+id/reg_fragment1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:id="@+id/Reg_UserName"
+                android:hint="@string/RegUsernamehint"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/Reg_SName"
+                android:hint="@string/RegNamehint"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:id="@+id/DOB"
+                android:hint="@string/RegDOBhint" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:id="@+id/Reg_SMajor"
+                android:hint="@string/RegMajorhint"/>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/reg_fragment2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:inputType="textEmailAddress"
+                android:id="@+id/Reg_Email"
+                android:hint="@string/RegEmailHint"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:id="@+id/Reg_pass1"
+                android:hint="@string/RegPassHint"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30sp"
+                android:id="@+id/Reg_pass2"
+                android:hint="@string/RegConfirmHint"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_Reg"
+                android:text="@string/RegBtn"
+                android:backgroundTint="#0FFF"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

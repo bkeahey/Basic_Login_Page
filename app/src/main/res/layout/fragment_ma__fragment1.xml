@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.montclair.mobilecomputing.m_alrajab.assignment_1.MA_Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="177dp"
+            android:layout_marginLeft="50dp"
+            android:background="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Welcome"
+            android:id="@+id/textView"
+            android:typeface="monospace"
+            android:fontFamily="@string/abc_capital_on"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</FrameLayout>

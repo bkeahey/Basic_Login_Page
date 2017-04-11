@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="Name">Name:</string>
+    <string name="GetEmail">Get Password</string>
+    <string name="Email">Email:</string>
+    <string name="RegBtn">Register</string>
+    <string name="Welcome">WELCOME TO MSU</string>
+    <string name="UsernameMA">Username:</string>
+    <string name="PasswordMA">Password:</string>
+    <string name="ForgotPassMA">Forget password</string>
+    <string name="RegisterMA">Register</string>
+    <string name="hintuser">Enter your username</string>
+    <string name="hintpass">i.e. 1234</string>
+    <string name="RegUsernamehint">Enter a username</string>
+    <string name="RegNamehint">Enter your name</string>
+    <string name="RegDOBhint">Enter Your Date of Birth</string>
+    <string name="RegMajorhint">Enter your major</string>
+    <string name="RegEmailHint">Enter your MSU email</string>
+    <string name="RegPassHint">Enter your password</string>
+    <string name="RegConfirmHint">Confirm  password</string>
+    <string name="LandingPage">This account is for</string>
+    <string-array name="Majors">
+        <item>Computer Science</item>
+        <item>IT</item>
+        <item>History</item>
+        <item>Physics</item>
+        <item>Math</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
